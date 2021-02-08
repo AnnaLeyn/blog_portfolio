@@ -124,6 +124,7 @@ main .about-me .hello{
     font-size: 1.1em;
     box-shadow: 0 0 30px #d38e03;
     text-align: center;
+    padding: 10px;
 }
 main .work{   
     text-align: center;  
