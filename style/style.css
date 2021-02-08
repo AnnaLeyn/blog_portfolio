@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemonada:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:wght@300&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Bitter";   
+    background-color: #e8e8e8;
+
+    
+}
+::selection{
+    color: black;
+    background: #a62a1e;
+}
+header{
+    background-color: #383838;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    
+}
+
+
+header .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-image: url(../img/black-white-polka-photoshoped.jpg);
+    color: #ffc934;
+    width: 60%;
+    font-size: 1.8em;
+    border-radius: 350px;
+    margin: 5px;
+}
+header .title h3{
+    position: relative;
+    bottom: 20%;
+    left: 30%;
+    text-shadow: 2px 5px 10px #020202;
+}
+header .title h2{
+    position: relative;
+    bottom: 17%;
+    left: 30%;
+    text-shadow: 2px 5px 10px #020202;
+    
+}
+header .title h1{
+    position: relative;
+    bottom: 20%;
+    left: 30%;
+    text-shadow: 2px 5px 10px #020202;
+}
+
+
+header nav{
+    width: 40%;
+}
+header nav ul{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+header .photo-header{
+    background-image: url(../img/20388a03af3e1ed4872f02ce822b3817.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    height: 500px;   
+    border-radius: 350px;
+    box-shadow: 0 0 30px #020202;
+    background-position-y: center;
+    background-position-x: center;
+}
+
+header nav ul a{
+    text-decoration: none;
+    color: black;
+}
+header nav ul a li{
+    text-decoration: none;
+    color: #e8e8e8;
+    font-size: 1.3em;
+    padding: 5px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 60px;
+    list-style: none;
+
+}
+header nav ul a:hover{
+    color: #020202;
+    background-color: #ffc934;
+    border-radius: 50px;
+}
+
+main .about-me{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: #ffc934;
+}
+main .about-me .photo-about{
+    background-image: url(../img/c81f12729215cc0134b961d86fc428ce.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 500px;   
+    border-radius: 350px;
+    box-shadow: 0 0 10px #a87102;
+    background-position-y: top;
+    background-position-x: center;
+    margin: 10px 5px;
+    width: 100%;
+}
+main .about-me .hello{
+    width: 100%;
+    margin: 10px 5px;
+    font-size: 1.1em;
+    box-shadow: 0 0 30px #d38e03;
+    text-align: center;
+}
+main .work{   
+    text-align: center;  
+    background-color: #ffffff;
+    margin: auto;
+}
+    
+main .work h1{
+    font-size: 4em;
+}
+main .work p{
+    font-size: 2em;
+    margin: 10px 0;
+}
+main .projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+main .work .projects .project-pic1, .project-pic2, .project-pic3, .project-pic4, .project-pic5, .project-pic6, .project-pic7,.project-pic8, .project-pic9{
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    border-radius: 10px;
+    box-shadow: 0 0 2px #383838;
+    filter: sepia(100%);
+}
+main .work .projects .project-pic1:hover, .project-pic2:hover, .project-pic3:hover, .project-pic4:hover, .project-pic5:hover, .project-pic6:hover, .project-pic7:hover,.project-pic8:hover, .project-pic9:hover{
+    filter: none;
+
+}
+main .work .projects .project-pic1{
+    background-image: url(../img/work1.jpg);
+}
+main .work .project-pic2{
+    background-image: url(../img/work2.jpg);
+}
+main .work .project-pic3{
+    background-image: url(../img/work3.jpg);
+}
+main .work .project-pic4{
+    background-image: url(../img/work4.jpg);
+}
+main .work .project-pic5{
+    background-image: url(../img/work5.jpg);
+}
+main .work .project-pic6{
+    background-image: url(../img/work6.jpg);
+}
+main .work .project-pic7{
+    background-image: url(../img/work7.jpg);
+}
+main .work .project-pic8{
+    background-image: url(../img/work8.jpg);
+}
+main .work .project-pic9{
+    background-image: url(../img/work9.jpg);
+}
+main .blog{
+    text-align: center;
+    font-size: 1.3em;
+    color: #ffc934;
+    background-color: #3b4046;
+    padding: 20px 10px;
+    margin: auto;
+}
+
+main .blog p{
+    font-size: 0.7em;
+    margin: 5px;
+    width: 70%;
+    margin: auto;
+}
+main .blog .subscribe{
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    justify-content: space-around;
+    margin: 50px auto;
+    width: 70%;
+}
+main .blog input{
+    width: 60%;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    
+    
+}
+main .blog button{
+    width: 30%;
+    height: 40px;
+    border: none;
+    background-color: #ffc934;
+    font-size: 0.7em;
+    font-weight: bolder;
+    
+}
+
+main .reviews{
+    text-align: center;
+    font-size: 1.3em;
+}
+main .reviews ul{
+    width: 70%;
+    margin: 20px auto;
+}
+main .reviews ul li{
+    list-style-type: none;
+    box-shadow: 0 0 10px#8c98a7;
+    padding: 8px;
+    width: 200px;
+    margin: auto;
+    
+}
+main .reviews .quote{
+    background-image: url(../img/iconfinder_slice409_2859061.png);
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+}
+main .reviews .companies{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    width: 70%;
+}
+main span{
+    height: 25px;
+    width: 25px;
+    border:5px solid #8c98a7;
+    border-radius: 50%;
+    display: inline-block;
+}
+footer{
+    background-color: #383838;
+    color: #d38e03;
+    padding: 5px;
+    margin: 20px 0;
+}
+footer h3, h1{
+    text-align: center;
+    padding: 10px;
+}
+footer h3{
+    background-color: #ffc934;
+    color: #383838;
+    width: 200px;
+    margin: auto;
+}
+footer .contacts{
+    margin: auto;
+    
+}
+footer .contacts ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+footer .contacts ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 200px;
+    margin: 20px  5px;
+    
+}
+footer .contacts figure img{
+    width: 30px;
+    margin: 0 5px;
+} 
+footer .contacts figure p{
+    margin: 0 5px;
+    font-size: 18px;
+}
+footer .rights{
+    text-align: center;
+    padding: 10px;
+    color: #a87102;
+    font-size: 14px;
+}
+@media screen and (min-width:600px){
+    main .work .projects .project-pic1, .project-pic2, .project-pic3, .project-pic4, .project-pic5, .project-pic6, .project-pic7,.project-pic8, .project-pic9{
+        width: 250px;
+    }
+    main .reviews ul li{
+        width: 300px;
+    }
+
+}
+@media screen and (min-width: 800px){
+    main .about-me{
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+    main .about-me .photo-about{
+        width: 60%;
+        
+    }
+    main .about-me .hello{
+        width: 40%;
+    }
+    main .reviews .companies{
+        width: 600px;
+    }
+    footer .contacts{
+        width: 800px;
+    }
+
+}
+@media screen and (min-width: 1100px){
+    
+  
+    main .work .projects .project-pic1, .project-pic2, .project-pic3, .project-pic4, .project-pic5, .project-pic6, .project-pic7,.project-pic8, .project-pic9{
+        width: 350px;
+        height: 350px;
+    }
+}
